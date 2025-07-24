@@ -1,0 +1,60 @@
+#include<stdio.h>
+#include<locale.h>
+#include<conio.h>
+main()
+{
+    setlocale(LC_ALL,"English");
+
+int A,B,C,D,E;
+printf("1. Enter the Candidate's Score:"); scanf("%d",&A);
+printf("2. Enter the Candidate's Score:"); scanf("%d",&B);
+printf("3. Enter the Candidate's Score:"); scanf("%d",&C);
+printf("4. Enter the Candidate's Score:"); scanf("%d",&D);
+printf("5. Enter the Candidate's Score:"); scanf("%d",&E);
+
+printf("--Successful and Unsuccessful Candidates--\n");
+
+if (A >= 100) 
+{
+	printf("Candidate 1 Passed Successfully\n");
+}
+else
+{
+	printf("Candidate 1 Failed\n");
+}
+if (B >= 100)
+{
+	printf("Candidate 2 Passed Successfully\n");
+}
+else
+{
+	printf("Candidate 2 Failed\n");
+}
+if (C >= 100)	
+{
+   printf("Candidate 3 Passed Successfully\n");	
+}
+else
+{
+	printf("Candidate 3 Failed\n");
+}
+if (D >= 100)
+{
+    printf("Candidate 4 Passed Successfully\n");	
+}
+else
+{
+	printf("Candidate 4 Failed\n");
+} 
+if (E >= 100)
+{
+    printf("Candidate 5 Passed Successfully\n");	
+}
+else
+{
+	printf("Candidate 5 Failed\n");
+} 
+	
+getch();
+    return 0;
+}
