@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main()
+{
+	setlocale(LC_ALL, "English");
+	int a = 0;
+	
+	do {
+		printf("I Love You\n");
+		a++;
+		}while (1);
+	
+	return 0;
+}
+    
