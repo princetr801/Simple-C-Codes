@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<locale.h>
+#include<conio.h>
+main()
+{
+    setlocale(LC_ALL,"English");
+int a;
+     for (int a = 1; a <= 10; ++a ) {
+     	printf("\n Hello!!! \n");
+     }
+    return 0;
+}
